@@ -1,2 +1,2 @@
-# command-gate
-Command dispatching interface with extendable processing flow
+# Command Gate
+An interface for dispatching command objects that are handled by handler instances with a configurable and extendable command processing flow
