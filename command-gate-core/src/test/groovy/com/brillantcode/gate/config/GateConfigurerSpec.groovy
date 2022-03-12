@@ -18,7 +18,7 @@ class GateConfigurerSpec extends Specification {
 
   def "Configures a simple command gate"() {
     given: "a command gate configurer instance"
-    def configurer = new GateConfigurer()
+    def configurer = GateConfigurer.create()
 
     and: "a simple command type is registered"
     configurer.commandRegistry().addTypes([TestCommands.SimpleCommand])
