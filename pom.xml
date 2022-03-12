@@ -247,6 +247,9 @@
               </goals>
               <configuration>
                 <trimStackTrace>false</trimStackTrace>
+                <includes>
+                  <include>**/*Spec.*</include>
+                </includes>
                 <excludes>
                   <exclude>%regex[.*Integration.*]</exclude>
                 </excludes>
