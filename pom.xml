@@ -64,7 +64,7 @@
 
     <maven.version>3.8.1</maven.version>
 
-    <spring-context.version>5.3.16</spring-context.version>
+    <spring-context.version>5.3.19</spring-context.version>
 
     <guava.version>31.0.1-jre</guava.version>
     <commons-collections4.version>4.4</commons-collections4.version>
